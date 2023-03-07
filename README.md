@@ -1,41 +1,139 @@
-All Classes
+BotContext      <!-- try { if (location.href.indexOf('is-external=true') == -1) { parent.document.title="BotContext"; } } catch(err) { } //--> var data = {"i0":10,"i1":10,"i2":10,"i3":9}; var tabs = {65535:\["t0","All Methods"\],1:\["t1","Static Methods"\],2:\["t2","Instance Methods"\],8:\["t4","Concrete Methods"\]}; var altColor = "altColor"; var rowColor = "rowColor"; var tableTab = "tableTab"; var activeTableTab = "activeTableTab"; var pathtoroot = "../../../../../"; var useModuleDirectories = true; loadScripts(document, 'script');
 
-All Classes
-===========
+JavaScript is disabled on your browser.
 
-*   [AddController](animal/shelter/animalsshelter/controllers/web/AddController.html "class in animal.shelter.animalsshelter.controllers.web")
-*   [BotContext](animal/shelter/animalsshelter/controllers/stateTest/BotContext.html "class in animal.shelter.animalsshelter.controllers.stateTest")
-*   [BotState](animal/shelter/animalsshelter/controllers/stateTest/BotState.html "enum in animal.shelter.animalsshelter.controllers.stateTest")
-*   [CallVolunteerMsg](animal/shelter/animalsshelter/model/CallVolunteerMsg.html "class in animal.shelter.animalsshelter.model")
-*   [CallVolunteerMsgRepository](animal/shelter/animalsshelter/repository/CallVolunteerMsgRepository.html "interface in animal.shelter.animalsshelter.repository")
-*   [CallVolunteerMsgService](animal/shelter/animalsshelter/service/CallVolunteerMsgService.html "interface in animal.shelter.animalsshelter.service")
-*   [CallVolunteerMsgServiceImpl](animal/shelter/animalsshelter/service/impl/CallVolunteerMsgServiceImpl.html "class in animal.shelter.animalsshelter.service.impl")
-*   [Config](animal/shelter/animalsshelter/config/Config.html "class in animal.shelter.animalsshelter.config")
-*   [DeleteController](animal/shelter/animalsshelter/controllers/web/DeleteController.html "class in animal.shelter.animalsshelter.controllers.web")
-*   [Dog](animal/shelter/animalsshelter/model/Dog.html "class in animal.shelter.animalsshelter.model")
-*   [Dog.DogType](animal/shelter/animalsshelter/model/Dog.DogType.html "enum in animal.shelter.animalsshelter.model")
-*   [DogRepository](animal/shelter/animalsshelter/repository/DogRepository.html "interface in animal.shelter.animalsshelter.repository")
-*   [DogService](animal/shelter/animalsshelter/service/DogService.html "interface in animal.shelter.animalsshelter.service")
-*   [DogServiceImpl](animal/shelter/animalsshelter/service/impl/DogServiceImpl.html "class in animal.shelter.animalsshelter.service.impl")
-*   [Emoji](animal/shelter/animalsshelter/util/Emoji.html "class in animal.shelter.animalsshelter.util")
-*   [GetController](animal/shelter/animalsshelter/controllers/web/GetController.html "class in animal.shelter.animalsshelter.controllers.web")
-*   [ImageParser](animal/shelter/animalsshelter/service/ImageParser.html "interface in animal.shelter.animalsshelter.service")
-*   [ImageParserImpl](animal/shelter/animalsshelter/service/impl/ImageParserImpl.html "class in animal.shelter.animalsshelter.service.impl")
-*   [Report](animal/shelter/animalsshelter/model/Report.html "class in animal.shelter.animalsshelter.model")
-*   [ReportRepository](animal/shelter/animalsshelter/repository/ReportRepository.html "interface in animal.shelter.animalsshelter.repository")
-*   [ReportService](animal/shelter/animalsshelter/service/ReportService.html "interface in animal.shelter.animalsshelter.service")
-*   [ReportServiceImpl](animal/shelter/animalsshelter/service/impl/ReportServiceImpl.html "class in animal.shelter.animalsshelter.service.impl")
-*   [ShelterAnimalsRun](animal/shelter/animalsshelter/ShelterAnimalsRun.html "class in animal.shelter.animalsshelter")
-*   [StartMenu](animal/shelter/animalsshelter/util/StartMenu.html "class in animal.shelter.animalsshelter.util")
-*   [TelegramBotStart](animal/shelter/animalsshelter/controllers/TelegramBotStart.html "class in animal.shelter.animalsshelter.controllers")
-*   [TestEntity](animal/shelter/animalsshelter/model/TestEntity.html "class in animal.shelter.animalsshelter.model")
-*   [TestJPA](animal/shelter/animalsshelter/repository/TestJPA.html "interface in animal.shelter.animalsshelter.repository")
-*   [TestUser](animal/shelter/animalsshelter/controllers/stateTest/TestUser.html "class in animal.shelter.animalsshelter.controllers.stateTest")
-*   [User](animal/shelter/animalsshelter/model/User.html "class in animal.shelter.animalsshelter.model")
-*   [UserRepository](animal/shelter/animalsshelter/repository/UserRepository.html "interface in animal.shelter.animalsshelter.repository")
-*   [UserService](animal/shelter/animalsshelter/service/UserService.html "interface in animal.shelter.animalsshelter.service")
-*   [UserServiceImpl](animal/shelter/animalsshelter/service/impl/UserServiceImpl.html "class in animal.shelter.animalsshelter.service.impl")
-*   [Volunteer](animal/shelter/animalsshelter/model/Volunteer.html "class in animal.shelter.animalsshelter.model")
-*   [VolunteerRepository](animal/shelter/animalsshelter/repository/VolunteerRepository.html "interface in animal.shelter.animalsshelter.repository")
-*   [VolunteerService](animal/shelter/animalsshelter/service/VolunteerService.html "interface in animal.shelter.animalsshelter.service")
-*   [VolunteerServiceImpl](animal/shelter/animalsshelter/service/impl/VolunteerServiceImpl.html "class in animal.shelter.animalsshelter.service.impl")
+[Skip navigation links](#skip.navbar.top "Skip navigation links")
+
+*   [Overview](../../../../../index.html)
+*   [Package](package-summary.html)
+*   Class
+*   [Tree](package-tree.html)
+*   [Deprecated](../../../../../deprecated-list.html)
+*   [Index](../../../../../index-files/index-1.html)
+*   [Help](../../../../../help-doc.html)
+
+*   [All Classes](../../../../../allclasses.html)
+
+*   SEARCH:
+
+<!-- allClassesLink = document.getElementById("allclasses\_navbar\_top"); if(window==top) { allClassesLink.style.display = "block"; } else { allClassesLink.style.display = "none"; } //-->
+
+JavaScript is disabled on your browser.
+
+*   Summary: 
+*   Nested | 
+*   Field | 
+*   Constr | 
+*   [Method](#method.summary)
+
+*   Detail: 
+*   Field | 
+*   Constr | 
+*   [Method](#method.detail)
+
+<!-- $('.navPadding').css('padding-top', $('.fixedNav').css("height")); //-->
+
+Package [animal.shelter.animalsshelter.controllers.stateTest](package-summary.html)
+
+Class BotContext
+----------------
+
+*   java.lang.Object
+*   *   animal.shelter.animalsshelter.controllers.stateTest.BotContext
+
+*   * * *
+
+    public class BotContext
+    extends java.lang.Object
+
+
+*   *   ### Method Summary
+
+        All Methods [Static Methods](javascript:show(1);) [Instance Methods](javascript:show(2);) [Concrete Methods](javascript:show(8);) 
+        
+        Modifier and Type
+
+        Method
+
+        Description
+
+        `[TelegramBotStart](../TelegramBotStart.html "class in animal.shelter.animalsshelter.controllers")`
+
+        `[getBot](#getBot())()`
+
+         
+
+        `java.lang.String`
+
+        `[getInput](#getInput())()`
+
+         
+
+        `[TestUser](TestUser.html "class in animal.shelter.animalsshelter.controllers.stateTest")`
+
+        `[getUser](#getUser())()`
+
+         
+
+        `static [BotContext](BotContext.html "class in animal.shelter.animalsshelter.controllers.stateTest")`
+
+        `[of](#of(animal.shelter.animalsshelter.controllers.TelegramBotStart,animal.shelter.animalsshelter.controllers.stateTest.TestUser,java.lang.String))​([TelegramBotStart](../TelegramBotStart.html "class in animal.shelter.animalsshelter.controllers") bot, [TestUser](TestUser.html "class in animal.shelter.animalsshelter.controllers.stateTest") user, java.lang.String text)`
+
+         
+
+    *   ### Methods inherited from class java.lang.Object
+
+        `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+
+
+*   *   ### Method Detail
+
+    *   #### of
+
+        public static [BotContext](BotContext.html "class in animal.shelter.animalsshelter.controllers.stateTest") of​([TelegramBotStart](../TelegramBotStart.html "class in animal.shelter.animalsshelter.controllers") bot,
+        [TestUser](TestUser.html "class in animal.shelter.animalsshelter.controllers.stateTest") user,
+        java.lang.String text)
+
+
+        *   #### getBot
+            
+            public [TelegramBotStart](../TelegramBotStart.html "class in animal.shelter.animalsshelter.controllers") getBot()
+            
+        
+        *   #### getUser
+            
+            public [TestUser](TestUser.html "class in animal.shelter.animalsshelter.controllers.stateTest") getUser()
+            
+        
+        *   #### getInput
+            
+            public java.lang.String getInput()
+
+
+
+[Skip navigation links](#skip.navbar.bottom "Skip navigation links")
+
+*   [Overview](../../../../../index.html)
+*   [Package](package-summary.html)
+*   Class
+*   [Tree](package-tree.html)
+*   [Deprecated](../../../../../deprecated-list.html)
+*   [Index](../../../../../index-files/index-1.html)
+*   [Help](../../../../../help-doc.html)
+
+*   [All Classes](../../../../../allclasses.html)
+
+<!-- allClassesLink = document.getElementById("allclasses\_navbar\_bottom"); if(window==top) { allClassesLink.style.display = "block"; } else { allClassesLink.style.display = "none"; } //-->
+
+JavaScript is disabled on your browser.
+
+*   Summary: 
+*   Nested | 
+*   Field | 
+*   Constr | 
+*   [Method](#method.summary)
+
+*   Detail: 
+*   Field | 
+*   Constr | 
+*   [Method](#method.detail)
