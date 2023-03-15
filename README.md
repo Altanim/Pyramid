@@ -1,139 +1,44 @@
-BotContext      <!-- try { if (location.href.indexOf('is-external=true') == -1) { parent.document.title="BotContext"; } } catch(err) { } //--> var data = {"i0":10,"i1":10,"i2":10,"i3":9}; var tabs = {65535:\["t0","All Methods"\],1:\["t1","Static Methods"\],2:\["t2","Instance Methods"\],8:\["t4","Concrete Methods"\]}; var altColor = "altColor"; var rowColor = "rowColor"; var tableTab = "tableTab"; var activeTableTab = "activeTableTab"; var pathtoroot = "../../../../../"; var useModuleDirectories = true; loadScripts(document, 'script');
+<p align="center"> 
+<img src="https://i.imgur.com/qZnhE08.png" width="200" alt="Shelter Logo">
+</p>
 
-JavaScript is disabled on your browser.
-
-[Skip navigation links](#skip.navbar.top "Skip navigation links")
-
-*   [Overview](../../../../../index.html)
-*   [Package](package-summary.html)
-*   Class
-*   [Tree](package-tree.html)
-*   [Deprecated](../../../../../deprecated-list.html)
-*   [Index](../../../../../index-files/index-1.html)
-*   [Help](../../../../../help-doc.html)
-
-*   [All Classes](../../../../../allclasses.html)
-
-*   SEARCH:
-
-<!-- allClassesLink = document.getElementById("allclasses\_navbar\_top"); if(window==top) { allClassesLink.style.display = "block"; } else { allClassesLink.style.display = "none"; } //-->
-
-JavaScript is disabled on your browser.
-
-*   Summary: 
-*   Nested | 
-*   Field | 
-*   Constr | 
-*   [Method](#method.summary)
-
-*   Detail: 
-*   Field | 
-*   Constr | 
-*   [Method](#method.detail)
-
-<!-- $('.navPadding').css('padding-top', $('.fixedNav').css("height")); //-->
-
-Package [animal.shelter.animalsshelter.controllers.stateTest](package-summary.html)
-
-Class BotContext
-----------------
-
-*   java.lang.Object
-*   *   animal.shelter.animalsshelter.controllers.stateTest.BotContext
-
-*   * * *
-
-    public class BotContext
-    extends java.lang.Object
+# Групповая работа с Java. Создание телеграм - бота
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+___
+## Описание телеграм - бота
+Телеграм-бот для приюта животных, который отвечает на вопросы людей о том, что нужно знать и уметь, чтобы забрать животное из приюта.
+Телеграмм-бот будет в течение месяца просить новых хозяев присылать ежедневный отчет о том, как животное приспособляется к новой обстановке.
+___
+## Техническое задание проекта:
+- [ТЗ](https://skyengpublic.notion.site/4509dd17f5f840f1ba6807fe83aa9c15)
+- [ТЗ на проект с правками](https://skyengpublic.notion.site/30eb1f5ef036467d8ae0527e7d625718)
+___
+## Команда разработчиков:
+- [Никита Мавродий](https://github.com/nikitamavrodiy)
+- [Ирина Миронова](https://github.com/irinamironova9)
+- [Альберт Татаринов](https://github.com/letuu)
+- [Анастасия Карпова](https://github.com/AnastasiaSergeeva05)
+- [Алексей Земский](https://github.com/zemscky)
+___
+## В проекте используются
+- Java 17
+- Maven
+- Stream API
+- Spring Boot
+- Spring Web
+- Spring Data
+- Spring JPA
+- Hibernate
+- PostgreSQL
+- Liquibase
+___
+## Демонстрация работы бота:
+[Ссылка на обзор бота на Driver Google](https://drive.google.com/file/d/15AbNn0T2qWO4Ol4ypMtHuqE63LQRcmSI/view?usp=share_link)
 
 
-*   *   ### Method Summary
-
-        All Methods [Static Methods](javascript:show(1);) [Instance Methods](javascript:show(2);) [Concrete Methods](javascript:show(8);) 
-        
-        Modifier and Type
-
-        Method
-
-        Description
-
-        `[TelegramBotStart](../TelegramBotStart.html "class in animal.shelter.animalsshelter.controllers")`
-
-        `[getBot](#getBot())()`
-
-         
-
-        `java.lang.String`
-
-        `[getInput](#getInput())()`
-
-         
-
-        `[TestUser](TestUser.html "class in animal.shelter.animalsshelter.controllers.stateTest")`
-
-        `[getUser](#getUser())()`
-
-         
-
-        `static [BotContext](BotContext.html "class in animal.shelter.animalsshelter.controllers.stateTest")`
-
-        `[of](#of(animal.shelter.animalsshelter.controllers.TelegramBotStart,animal.shelter.animalsshelter.controllers.stateTest.TestUser,java.lang.String))​([TelegramBotStart](../TelegramBotStart.html "class in animal.shelter.animalsshelter.controllers") bot, [TestUser](TestUser.html "class in animal.shelter.animalsshelter.controllers.stateTest") user, java.lang.String text)`
-
-         
-
-    *   ### Methods inherited from class java.lang.Object
-
-        `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+https://user-images.githubusercontent.com/113126626/218460104-fd49c50d-286d-47b3-86c3-23c801a064dc.mp4
 
 
-*   *   ### Method Detail
-
-    *   #### of
-
-        public static [BotContext](BotContext.html "class in animal.shelter.animalsshelter.controllers.stateTest") of​([TelegramBotStart](../TelegramBotStart.html "class in animal.shelter.animalsshelter.controllers") bot,
-        [TestUser](TestUser.html "class in animal.shelter.animalsshelter.controllers.stateTest") user,
-        java.lang.String text)
-
-
-        *   #### getBot
-            
-            public [TelegramBotStart](../TelegramBotStart.html "class in animal.shelter.animalsshelter.controllers") getBot()
-            
-        
-        *   #### getUser
-            
-            public [TestUser](TestUser.html "class in animal.shelter.animalsshelter.controllers.stateTest") getUser()
-            
-        
-        *   #### getInput
-            
-            public java.lang.String getInput()
-
-
-
-[Skip navigation links](#skip.navbar.bottom "Skip navigation links")
-
-*   [Overview](../../../../../index.html)
-*   [Package](package-summary.html)
-*   Class
-*   [Tree](package-tree.html)
-*   [Deprecated](../../../../../deprecated-list.html)
-*   [Index](../../../../../index-files/index-1.html)
-*   [Help](../../../../../help-doc.html)
-
-*   [All Classes](../../../../../allclasses.html)
-
-<!-- allClassesLink = document.getElementById("allclasses\_navbar\_bottom"); if(window==top) { allClassesLink.style.display = "block"; } else { allClassesLink.style.display = "none"; } //-->
-
-JavaScript is disabled on your browser.
-
-*   Summary: 
-*   Nested | 
-*   Field | 
-*   Constr | 
-*   [Method](#method.summary)
-
-*   Detail: 
-*   Field | 
-*   Constr | 
-*   [Method](#method.detail)
+___
